@@ -396,11 +396,11 @@
         font-size: 32px;
     }
 
-    #what-we-do > .container > div:last-child{
-        display: grid !important;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-    }
+#what-we-do > .container > div:last-child{
+    display: grid !important;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
 
     #what-we-do .w-23{
         width: 100%;
