@@ -145,7 +145,7 @@
 }
 
 #home{
-    background-image: url(/images/hero-bg.jpg);
+    background-image: url(../images/hero-bg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -318,93 +318,4 @@
 
 .footer-a:hover{
     color: #b6ff00;
-}
-
-@media (max-width: 767px){
-
-    /* Home */
-    #home{
-        height: auto;
-        min-height: 100vh;
-    }
-
-#home .container > .d-flex{
-    flex-direction: column;
-    text-align: center;
-    min-height: 80vh;
-    gap: 50px;
-}
-
-    #home .w-40{
-        width: 100%;
-    }
-
-    #home h1{
-        font-size: 38px;
-    }
-
-    #home .d-flex.justify-content-between{
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    #home .d-flex.justify-content-between .btn{
-        width: 100%;
-    }
-
-
-    /* Our Games */
-    #our-games{
-        padding: 70px 0;
-    }
-
-    #our-games h2.fs-large{
-        font-size: 38px;
-    }
-
-    .f-slide img,
-    .sec-slide img,
-    .third-slide img{
-        width: 31%;
-        border-radius: 20px;
-    }
-
-    .carousel-controls{
-        flex-wrap: wrap;
-        gap: 15px;
-        margin-top: 30px;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next{
-        width: 50px;
-        height: 50px;
-    }
-
-    .carousel-controls span{
-        width: 100%;
-        text-align: center;
-    }
-
-    .carousel-controls span .btn{
-        width: 100%;
-    }
-
-
-    /* What We Do */
-    #what-we-do h2.fs-big{
-        font-size: 32px;
-    }
-
-    #what-we-do > .container > div:last-child{
-        display: grid !important;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-    }
-
-    #what-we-do .w-23{
-        width: 100%;
-        margin: 0 !important;
-    }
-
 }
